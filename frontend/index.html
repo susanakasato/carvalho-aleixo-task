@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Long Life Nutri - Amazon Products Task</title>
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <h1>Long Life Nutri - Amazon Products Task</h1>
+      <form>
+        <label>Search keyword:</label>
+        <input type="text" id="keyword-input"/>
+        <button type="submit" id="submit-button">Search</button>
+      </form>
+      <table id="products-table" hidden>
+        <thead>
+          <tr>
+            <td>#</td>
+            <td>Title</td>
+            <td>Rating</td>
+            <td>Reviews</td>
+            <td>Image</td>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
